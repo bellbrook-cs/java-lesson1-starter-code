@@ -1,64 +1,138 @@
-# Template Assignment
+# Welcome to Intro to Java!
 
-## Problem Statement
+## Instructions
 
-## Input Description
+### Part 1
 
-## Sample Input/Output
+Whenever you open an assignment in repl.it, you'll see two things open. The instructions you are reading right now, and the stater code to the left.
 
-## Submission
+For now try clicking the `run` button at the top of your screen.
 
-Please submit the following to google classroom:
+### Part 2
 
-1. `Main.java`
+After you run the program, try to figure out what parts of the program are printing stuff to the screen? Can you figure out how to change what it prints?
+
+Work with your table to modify the starter code to print:
+
+```
+Hello World!
+```
+
+<details>
+  <summary>Click here if you need a hint!</summary>
+
+```java
+System.out.println("message");
+```
+
+will print "message" to the console. 
+
+You can remove all of the lines that start with `System.out.println` from the code to make it stop printing the messages out. However the following lines of code are **mandatory** and cannot be removed:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.print("Hello");
+        System.out.println("World!");
+    }
+}
+```
+
+</details>
+
+### Part 3
+
+Now that you've written your first program! You'll need to make sure others know you wrote it.
+
+The top of your program should say:
+
+```java
+/*
+ * Program Title: 
+ * Author: 
+ * Date: 
+ * Purpose: 
+ */
+ ```
+
+ You should modify it to match your personal details, as well as what the program is. Similar to the following:
+
+ ```java
+ /*
+ * Program Title: Hello World!
+ * Author: Hayden Mankin
+ * Date: 11/22/2021
+ * Purpose: Prints "Hello World!" to the console.
+ */
+ ```
+
+### Part 4
+
+Now it's time to submit your work! You'll need to do a couple things to submit an assignment:
+
+1. Download the `Main.java` file from repl.it
     * Hover over `Main.java`.
     * Click the three dots to the right of the file name.
-    * Click `Download`.
-    * Upload the downloaded file to google classroom.
-2. A link to your replit project
+    * Click Download.
+2. Copy the link to the repl.it
+    * Copy the url from the top of your web browser.
 
-## Rubric
+You'll need to submit both of these things to the google classroom assignment for credit.
 
-<table>
-<tbody>
-  <tr>
-    <td valign="top"><b>Coded Solution</b><br><br>The coded solutions works correctly with no syntax, logic, or run-time errors.</td>
-    <td valign="top"><b>8pts</b><br><br>* The submitted code compiles successfully. <br><br>* The submitted program is free of run-time and logic errors. <br><br>* The submitted program returns the anticipated output for all input tested.
-</td>
-    <td valign="top"><b>4pts</b><br><br>* The submitted program compiles successfully. <br><br>* The submitted program includes run-time and/or logic errors that result in correct output. <br><br>* The submitted program returns the anticipated output for most (but not all) input tested.
-</td>
-    <td valign="top"><b>2pts</b><br><br>* A program is submitted but it fails to compile. <br><br><b><em>or</em></b> <br><br>* The submitted program compiles correctly. <br><br>* The submitted program includes run-time and/or logic errors that result in incorrect output. <br><br>* The submitted program returns the anticipated output for less than half of the input tested.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Target Concepts</b><br><br>The program effectively uses the intended target concepts.</td>
-    <td valign="top"><b>8pts</b><br><br>* The program effectively uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation.
-</td>
-    <td valign="top"><b>4pts</b><br><br>* The program incorrectly uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation. <br><br>* Moderate effort to use the target concepts is evident.
-</td>
-    <td valign="top"><b>2pts</b><br><br>* The program incorrectly uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation. <br><br>* Minimal effort to use the target concepts is evident.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b><br><br> * No attempt was made to use the target concepts being discussed in class or outlined within the project specifications for the given problem situation.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>User Interface</b><br><br>The program produces output that is easy for the user to read.</td>
-    <td valign="top"><b>2pts</b><br><br>* Output demonstrates appropriate spacing for best user readability. <br><br>* Output contains no spelling or grammatical errors.
-</td>
-    <td valign="top"><b>1pts</b><br><br>* Output includes minor spacing problems which results in information which is inconsistent or confusing. <br><br>* Output contains minor spelling or grammatical errors.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b> <br><br>* Output includes major spacing problems which is severely inconsistent or confusing. <br><br>* Output contains major spelling or grammatical errors.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Readability of Code</b><br><br>The program code is documented and formatted for human readability.</td>
-    <td valign="top"><b>2pts</b><br><br>* The submitted solution includes the required header documentation (name, date, purpose). <br><br>* Header documentation includes appropriate modification comments if the submitted solution is a modification to a previously submitted program. <br><br>* Code is properly formatted. Open and close brackets are properly aligned and code within the brackets is appropriately indented. <br><br>* All variables are self-documented (i.e. named in such a way that the name indicates the purpose of the variable).
-</td>
-    <td valign="top"><b>1pts</b><br><br>* The submitted solution includes the some, but not ALL, of the required header documentation (name, date, purpose). <br><br>* In the case of modifications to a previously submitted program, modification comments are missing or incomplete. <br><br>* Code is unformatted and difficult to follow. Brackets aren't aligned and/or code within brackets is not indented. <br><br>* Numerous variable names are ambiguous (i.e. x) and do not indicate the purpose of the variable.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b> <br><br>* The submitted solution includes no documentation of any kind.</td>
-  </tr>
-</tbody>
-</table>
+Follow these steps and submit it to the Hello World assignment on google classroom.
+
+### Part 5
+
+Once you've completed all of the previous steps it's time to play with java a bit more to figure out how it works.
+
+Change your code to the following:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.print("Hello");
+        System.out.println("World!");
+    }
+}
+```
+
+Run it and see what happens. Was the output what you expected? Discuss with your table what the difference is between `System.out.print` and `System.out.println`.
+
+<details>
+  <summary>Click here if you need a hint!</summary>
+
+Make sure you notice the distinction on each line. `print` and `println` are different becuase one has an `ln` at the end.
+
+The `ln` is short for line.
+
+Try changing the `print` to `println` and vice versa. How does the output change?
+
+</details>
+
+### Part 6
+
+Change your code to the following:
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Peter Piper picked a peck of pickled peppers.");
+        System.out.println("I like computer science");
+        System.out.println(25 / 5);
+        System.out.println(4 / 7.0445902);
+        System.out.println(13 * 159.56);
+    }
+}
+```
+
+Think about what this might output? Discuss with your table.
+
+Run it and see what happens. Was the output what you expected? Discuss with your table what each line actually outputted to the console.
+
+### Part 7
+
+Lastly it's important to notice something about this project. If you click the link on google classroom again, it will make a new project instead of taking you to the one you have worked on all class.
+
+To access the project again in the future you'll want to take note of the project name at the top of your screen.
+
+If you go to repl.it/repls you'll notice a list of all projects you've created. You'll need to find or search for the project you want to work on.
