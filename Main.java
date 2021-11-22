@@ -7,6 +7,7 @@
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println();
         System.out.println("This window is your console.");
         System.out.println("You can see the output of your program here.");
         System.out.println("To get back to the instructions, click the tab labeled `Markdown` above.");

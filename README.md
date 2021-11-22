@@ -4,7 +4,7 @@
 
 ### Part 1
 
-Whenever you open an assignment in repl.it, you'll see two things open. The instructions you are reading right now, and the stater code to the left.
+Whenever you open an assignment in repl.it, you'll see two things open. The instructions you are reading right now, and the starter code to the left.
 
 For now try clicking the `run` button at the top of your screen.
 
@@ -19,25 +19,18 @@ Hello World!
 ```
 
 <details>
-  <summary>Click here if you need a hint!</summary>
-
-```java
-System.out.println("message");
-```
-
-will print "message" to the console. 
-
-You can remove all of the lines that start with `System.out.println` from the code to make it stop printing the messages out. However the following lines of code are **mandatory** and cannot be removed:
-
-```java
-public class Main {
+<summary>Click here if you need a hint!</summary>
+<pre>
+<code>System.out.println("message");
+</code></pre>
+<p>will print "message" to the console. </p>
+<p>You can remove all of the lines that start with <code>System.out.println</code> from the code to make it stop printing the messages out. However the following lines of code are <b>mandatory</b> and cannot be removed:</p>
+<pre><code>public class Main {
     public static void main(String[] args) {
-        System.out.print("Hello");
-        System.out.println("World!");
+        
     }
 }
-```
-
+</code></pre>
 </details>
 
 ### Part 3
@@ -99,14 +92,10 @@ public class Main {
 Run it and see what happens. Was the output what you expected? Discuss with your table what the difference is between `System.out.print` and `System.out.println`.
 
 <details>
-  <summary>Click here if you need a hint!</summary>
-
-Make sure you notice the distinction on each line. `print` and `println` are different becuase one has an `ln` at the end.
-
-The `ln` is short for line.
-
-Try changing the `print` to `println` and vice versa. How does the output change?
-
+<summary>Click here if you need a hint!</summary>
+<p>Make sure you notice the distinction on each line. <code>print</code> and <code>println</code> are different becuase one has an <code>ln</code> at the end.</p>
+<p>The <code>ln</code> is short for line.</p>
+<p>Try changing the <code>print</code> to <code>print</code> and vice versa. How does the output change?</p>
 </details>
 
 ### Part 6
@@ -133,6 +122,6 @@ Run it and see what happens. Was the output what you expected? Discuss with your
 
 Lastly it's important to notice something about this project. If you click the link on google classroom again, it will make a new project instead of taking you to the one you have worked on all class.
 
-To access the project again in the future you'll want to take note of the project name at the top of your screen.
+To access the project again in the future you'll want to take note of the project name at the top of your screen (java-lesson1-starter-code).
 
-If you go to repl.it/repls you'll notice a list of all projects you've created. You'll need to find or search for the project you want to work on.
+If you go to [https://repl.it/repls](https://repl.it/repls) you'll notice a list of all projects you've created. You'll need to find or search for the project you want to work on.
