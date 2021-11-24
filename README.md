@@ -95,7 +95,7 @@ Run it and see what happens. Was the output what you expected? Discuss with your
 <summary>Click here if you need a hint!</summary>
 <p>Make sure you notice the distinction on each line. <code>print</code> and <code>println</code> are different becuase one has an <code>ln</code> at the end.</p>
 <p>The <code>ln</code> is short for line.</p>
-<p>Try changing the <code>print</code> to <code>print</code> and vice versa. How does the output change?</p>
+<p>Try changing the <code>print</code> to <code>println</code> and vice versa. How does the output change?</p>
 </details>
 
 ### Part 6
